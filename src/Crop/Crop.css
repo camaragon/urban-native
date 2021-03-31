@@ -1,0 +1,53 @@
+.seed-packet {
+  align-items: center;
+  background-image: linear-gradient(#242424, black);
+  border-radius: 0.5rem;
+  border-style: ridge;
+  border-width: .2rem;
+  box-shadow: 5px 5px  10px black;
+  color: goldenrod;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8rem;
+  height: 30vh;
+  padding: 0.4rem;
+  padding-bottom: 0;
+  transition: 0.3s all;
+}
+
+.seed-packet:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+.seed-packet-top {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.toggle {
+  font-size: xx-large;
+  transition: 0.3s all;
+}
+
+.toggle:hover {
+  color: red;
+}
+
+.crop-image {
+  align-content: center;
+  height: 15vh;
+  object-fit: cover;
+  width: 100%;
+}
+
+.footnote {
+  align-self: flex-end;
+  font-size: 0.3rem;
+}
+
+a {
+  text-decoration: none;
+}

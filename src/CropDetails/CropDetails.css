@@ -1,0 +1,59 @@
+.crop-details-container {
+  height: 100%;
+  padding: 2rem;
+}
+
+.crop-details-image {
+  height: 70vh;
+  border-style: ridge;
+  border-radius: 2rem;
+  border-width: .5rem;
+  float: right;
+  margin-left: .5rem;
+  width: 60%;
+}
+
+p {
+  color: gold;
+  line-height: 2;
+}
+
+h1 {
+  color: gold;
+}
+
+.back-button {
+  align-self: flex-end;
+  border: 2px solid white;
+  border-radius: 0.5rem;
+  background-color: goldenrod;
+  font-size: xx-small;
+  height: 2rem;
+  margin: 1rem;
+  padding: 0.2rem;
+  transition: ease(500);
+  width: 10rem;
+}
+
+.back-button:hover {
+  background-color: darkgoldenrod;
+  cursor: pointer;
+  font-size: small;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+  @media screen and (max-width: 600px) {
+    .crop-details-image {
+      border-style: ridge;
+      border-radius: 2rem;
+      border-width: .5rem;
+      float: right;
+      height: 50vh;
+      width: 90%;
+    }
+  }

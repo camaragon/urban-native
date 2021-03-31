@@ -1,0 +1,30 @@
+.my-garden {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.my-garden-header {
+  background-image: linear-gradient(#242424, black);
+  border-radius: 0.5rem;
+  border-style: ridge;
+  border-width: .2rem;
+  box-shadow: 5px 5px  10px black;
+  color: goldenrod;
+  padding: 1rem;
+}
+
+.my-crops {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 0.5fr) );
+  width: 90%;
+}
+
+.no-crops {
+  display: flex;
+  justify-content: center;
+  color: goldenrod;
+  font-size: 2rem;
+}
